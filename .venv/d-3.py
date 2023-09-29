@@ -1,5 +1,6 @@
 import math
 
+
 class Square:
     def __init__(self, side):
         self.side = side
@@ -9,6 +10,7 @@ class Square:
 
     def diagonal(self):
         return math.sqrt(self.side * self.side + self.side * self.side)
+
 
 square1 = Square(side=1.5)
 print(square1.area())  # 2.25

@@ -1,6 +1,8 @@
 import math
+
+
 class Rectangle:
-    def __init__(self, height , width):
+    def __init__(self, height, width):
         self.height = height
         self.width = width
 
@@ -9,6 +11,7 @@ class Rectangle:
 
     def diagonal(self):
         return math.sqrt(self.height * self.height + self.width * self.width)
+
 
 rectangle1 = Rectangle(height=5, width=6)
 print(rectangle1.area())  # 30.00
